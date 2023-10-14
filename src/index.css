@@ -7,8 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .btn{
-  color:lightblue;
-  background:blue;
+  background-color:blue;
   height: 30px;
   width: 120px;
   border-radius: 4px;
