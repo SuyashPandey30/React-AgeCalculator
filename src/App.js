@@ -18,7 +18,7 @@ function App() {
       <h1>Age Calculator</h1>
       <h4>Enter your date of birth</h4>
       <input
-        class="in"
+        class="inp"
         type="date"
         placeholder="Enter your birth date"
         value={birthDate}
@@ -26,11 +26,8 @@ function App() {
       />
       <br/>
       <br/>
-      <button class="but" onClick={calculateAge}>Calculate Age</button>
-      <p>You are {age} years old</p>
-      
-      <p>or</p>
-      <p>You have {80-age} years to live</p>
+      <button class="btn" onClick={calculateAge}>Calculate Age</button>
+      <p>You are {age} Years old</p>
     </div>
   );
 }
