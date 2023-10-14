@@ -8,6 +8,7 @@ body {
 }
 .btn{
   color:lightblue;
+  background:blue;
   height: 30px;
   width: 120px;
   border-radius: 4px;
